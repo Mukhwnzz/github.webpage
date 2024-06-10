@@ -1,0 +1,376 @@
+body{
+    background-color: black;
+}
+header{
+    display: flex;
+    flex-direction: row;
+}
+.mangoes{
+    height: 100vh;
+    background:url(https://i.pinimg.com/564x/73/2b/14/732b141b8f27733113a2ce9f9d9f2b67.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+
+}
+h1{
+    font-size: 90px;
+    line-height: 76px;
+    letter-spacing: 0.001em;
+    font-family: "Mona Sans", "Mona Sans Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 700;
+    color: white;
+    margin-left: 250px;
+    margin-top: 200px;
+    position: relative;
+    padding-bottom: 0px;
+
+}
+.coverp{
+    margin-left: 255px;
+    color: white;
+    font-size: large;
+    font-size: 24px;
+    position: relative;
+    font-family: "Mona Sans", "Mona Sans Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    padding-top: 0px;
+    margin-top: -50px;
+}
+.octicon{
+    display: inline-block;
+    overflow: visible;
+    vertical-align: text-bottom;
+    fill: currentColor;
+}
+
+
+.button{
+    margin-left: 50px;
+    text-decoration: none;
+    font-family: "Mona Sans", "Mona Sans Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    
+}
+.signin{  
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 300;
+    padding: 10px 20px;
+    transition: 0.5s;
+    color: whitesmoke;
+    
+
+}
+.signup{
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 300;
+    padding: 10px 20px;
+    transition: 0.5s;
+    color: whitesmoke;
+}
+.signin:hover{
+    background: var(--clr);
+    letter-spacing: 0.08em;
+    box-shadow: 0 0 35px var(--clr);
+}
+.signup:hover{
+    background: var(--clr);
+    letter-spacing: 0.08em ;
+    box-shadow: 0 0 35px var(--clr);
+}
+
+
+.search{
+    margin-left: 700px;
+    border-radius: 16px;
+    color: rgb(14, 14, 14);
+    display: flex;
+    width: max-content;
+    align-items: center;
+    padding: 8px;
+    border-radius: 28px;
+    margin-top: -1px;
+    background-color: blueviolet;
+
+}
+.search-input{
+    font-size: 15px;
+    font-family: "Mona Sans", "Mona Sans Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    color:black;
+    outline: none;
+    border: none;
+    background: transparent;
+
+}
+.emailaddress{
+    margin-left: 255px;
+    margin-top: 70px;
+    width: max-content;
+    align-items: center;
+    border-radius: 6px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: rgb(232, 228, 236);
+    height: 25px;
+    background-color:white;
+    padding: 9px;
+
+
+}
+.emailaddress-input{
+    font-size: 18px;
+    font-family: "Mona Sans", "Mona Sans Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    color:black;
+    outline: none;
+    border: none;
+    background: transparent;
+    
+ 
+}
+.lastpart{
+    display: flex;
+    flex-direction: row;
+}
+#emailon{
+    border-radius: 6px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    height: 44px;
+    margin-top: 69px;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding-left: 0;
+    width: 180px;
+    border: 0;
+    transition: opacity,0.5s;
+    font-size: medium;
+    font-weight: 700;
+    font-family: "Mona Sans", "Mona Sans Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+#emailon:hover{
+    letter-spacing: 0.02em;
+    opacity: 0.5;
+    
+
+}
+.lastpart{
+    display: flex;
+    flex-direction: row;
+}
+.startfree{
+    margin-left: 150px;
+    margin-top: 69px;
+    text-decoration: none;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+    padding: 9px;
+    transition: 0.5s;
+    color: whitesmoke;
+    border-color: blueviolet;
+    border-style: solid;
+    border-radius: 6px;
+    height: 20px;
+    width: 180px;
+    text-align: center;
+}
+.startfree:hover{
+    background: var(--clr);
+    letter-spacing: 0.08em ;
+    box-shadow: 0 0 35px var(--clr);
+}
+.apples{
+    height: 100vh;
+    margin-top: 4px;
+    background-image:url(https://i.pinimg.com/564x/f4/5c/7e/f45c7efcf4082910fef59791e45e18e4.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.images{
+    display: inline-block;
+    margin-left: 250px;
+    margin-right: 100px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#pen{
+    color: rgba(255, 255, 255, 0.566);
+    margin-left: 265px;
+    margin-top: 30px;
+    font-family: "Mona Sans", "Mona Sans Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size:x-large;
+    letter-spacing: 0.08em;
+    font-weight: 600;
+
+}
+#show-login{
+    margin-left: 900px;
+    margin-top: 90px;
+    border-radius: 6px;
+    height: 44px;
+    background: transparent;
+    color: white;
+    text-align: center;
+    padding-left: 0;
+    width: 180px;
+    border-style: solid;
+    border-color: white;
+    transition: opacity,0.5s;
+    font-size: medium;
+    font-weight: 700;
+    font-family: "Mona Sans", "Mona Sans Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+#show-login:hover{
+    letter-spacing: 0.4em;
+    opacity: 0.5;
+}
+
+
+.tornado{
+    height: 100vh;  
+    background-image:url(https://github.githubassets.com/assets/illu-copilot-editor-6474457a5b19.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.tornado img{
+    margin-left: 800px;
+    border-radius: 16px;
+    max-width: 480px;
+    margin-top: 10px;
+}
+#jonte{
+    height: 100vh;
+
+}
+#jonte .airpods{
+    display: flex;
+    flex-direction: row;
+    margin-left: 450px;
+    margin-top: -250px;
+
+
+
+}
+#jonte .airpods li{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.486);
+    margin-left: 20px;
+    line-height: 40px;
+
+
+}
+#jonte .airpods li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.555);
+    font-family: serif;
+    
+
+}
+#jonte .airpods li a:hover{
+    opacity: 0.5;
+    text-decoration: underline;
+    color: rgb(0, 136, 255);
+}
+.party{
+    color: azure;
+    display: block;
+    margin-left: 30px;
+    font-size: small;
+    margin-top: 150px;
+}
+.party p{
+    font-family:serif;
+    color: whitesmoke;
+}
+.party h3{
+    font-size:xx-large;
+    font-family: serif;
+}
+.party h5{
+    font-size: larger;
+    font-family: serif;
+}
+#jonte .Subscribe{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+#jonte .Subscribe a{
+    text-decoration: none;
+    color: white;
+    border-color: white;
+    font-family: serif;
+    font-size: medium;
+    border-style: solid;
+    border-radius: 6px;
+    padding: 9px;
+    width: 380px;
+    font-family: serif;
+    height: 50px;
+
+
+}
+#jonte .Subscribe a:hover{
+    letter-spacing: 0.05em ;
+    color: blueviolet;
+
+}
+#jonte footer{
+    display: flex;
+    flex-direction: row;
+    
+
+
+}
+#jonte footer a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.486);
+    font-family: serif;
+    margin-left: 20px;
+    margin-top: 158px;
+    
+
+}
+#jonte footer a:hover{
+    opacity: 0.5;
+    text-decoration: underline;
+    color: rgb(0, 136, 255);
+}
+.list-style-none{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-top: 150px;
+
+}
+
+
+
+
+
+
+
+    
+    
+
+
+    
+
+
+
+    
+
+
+    
+
