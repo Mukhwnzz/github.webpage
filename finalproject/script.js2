@@ -1,0 +1,37 @@
+// DOM Elements
+const signInBtn = document.querySelector('.signin');
+const signUpBtn = document.querySelector('.signup');
+const emailInput = document.getElementById('emailaddress');
+const searchInput = document.getElementById('search');
+const githubSignupBtn = document.getElementById('emailon');
+
+// Event Listeners
+signInBtn.addEventListener('click', (e) => {
+  e.preventDefault();
+  alert('Redirecting to GitHub login...');
+  window.location.href = `https://github.com/login`;  
+});
+
+signUpBtn.addEventListener('click', (e) => {
+  e.preventDefault();
+  alert('Redirecting to GitHub signup...');
+  window.location.href= `https://github.com/signup`;
+});
+
+githubSignupBtn.addEventListener('click', () => {
+  const email = emailInput.value.trim();
+  if (!email) {
+    alert('Please enter a valid email address.');
+    return;
+  }
+  alert(`Signup request for: ${email}\n(Simulated database entry)`);
+  console.log('Email saved (simulated):', email);
+});
+
+// Search functionality
+searchInput.addEventListener('keypress', (e) => {
+  if (e.key === 'Enter') {
+    alert(`Searching GitHub for: "${searchInput.value}"`);
+    window.location.href = `https://github.com/search?q=${encodeURIComponent(searchInput.value)}`;
+  }
+});
